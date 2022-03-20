@@ -1,0 +1,27 @@
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.input {
+    height: 46px;
+    width: 200px;
+    border: 1px solid #373737;
+    border-radius: 10px;
+    padding: 10px 20px;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    color: #373737;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.maintext {
+  font-size: 30px;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+}
