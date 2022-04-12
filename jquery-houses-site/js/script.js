@@ -72,5 +72,9 @@ $('body').on('click', function(e) {
       }, 300, 'swing')
     })
   }
-})
 
+  /* close popup menu */
+  if (!e.target.closest('.modal-order__wrapper') && !e.target.closest('.present__modal-order')) {
+    modalOrder.hide(500);
+};
+});
